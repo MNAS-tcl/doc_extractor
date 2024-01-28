@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo "" > INSTALL.log
+echo "" > UNINSTALL.run
+
+mkdir -p /usr/local/bin/
+git clean -fx
+for i in `find . -name "*.sh"`
+do
+    echo "${i}"
+    cp -f ${i} /usr/local/bin/
+    chmod +x /usr/local/bin/${i}
+    echo "/usr/local/bin/${i}" >> INSTALL.log
+    echo "rm -f /usr/local/bin/${i}" >> UNINSTALL.run
+    chmod +x UNINSTALL.run
+done
