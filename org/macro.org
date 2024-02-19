@@ -1,0 +1,41 @@
+#+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+options: author:t broken-links:nil c:nil creator:nil
+#+options: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t
+#+options: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
+#+options: timestamp:t title:t toc:t todo:t |:t
+#+title: macro
+#+date: <2024-02-19 Пн>
+#+author:
+#+email: mnaso@UAKAZI-NOTE
+#+language: ru
+#+select_tags: export
+#+exclude_tags: noexport
+#+creator: Emacs 29.2 (Org mode 9.6.15)
+#+cite_export:
+#+options: html-link-use-abs-url:nil html-postamble:auto
+#+options: html-preamble:t html-scripts:nil html-style:t
+#+options: html5-fancy:nil tex:t
+#+html_doctype: xhtml-strict
+#+html_container: div
+#+html_content_class: content
+#+description:
+#+keywords:
+#+html_link_home:
+#+html_link_up:
+#+html_mathjax:
+#+html_equation_reference_format: \eqref{%s}
+#+html_head:
+#+html_head_extra:
+#+subtitle:
+#+infojs_opt:
+#+creator: <a href="https://www.gnu.org/software/emacs/">Emacs</a> 29.2 (<a href="https://orgmode.org">Org</a> mode 9.6.15)
+#+latex_header:
+
+#+HTML_HEAD: <style> p { text-indent: 30px; } </style>
+#+HTML_HEAD: <style> p { line-height: 1.15; } </style>
+#+HTML_HEAD: <style> p { margin-top: 0px; margin-bottom: 0px; } </style>
+
+#+MACRO: key-1 \langle{}$1\rangle{}
+#+MACRO: key-2 \langle{}\langle{}$1\rangle{}\rangle{}
+#+MACRO: I \vert
+#+MACRO: II \vert\vert
