@@ -1,0 +1,15 @@
+
+
+#+MACRO: key-1 \langle{}$1\rangle{}
+#+MACRO: key-2 \langle{}\langle{}$1\rangle{}\rangle{}
+#+MACRO: I \vert
+#+MACRO: II \vert\vert
+
+|--------------------+--------|
+| 1                  | 2      |
+|--------------------+--------|
+| {{{key-1(COPY)}}}  | {{{I}}} |
+| {{{key-2(Paste)}}} | {{{II}}} |
+
+
+
